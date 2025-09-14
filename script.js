@@ -6,7 +6,7 @@ document.body.appendChild(getSumBtn);
 const table = document.getElementById("table");
 
 const getSum = () => {
-	const allPrice = document.querySelectorAll(".prices");
+	const allPrice = document.querySelectorAll(".price");
     let sum = 0;
     for(let price of allPrice){
         sum += parseInt(price.innerText); 
